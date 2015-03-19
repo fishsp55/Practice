@@ -1,0 +1,45 @@
+import java.util.*;
+
+public class BasketballAnalyzer {
+	public static void main(String[] args){
+		int uncWins = 5;
+
+		int champEst;
+		String school;
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Welcome! Which school has the best basketball program?");
+		school = keyboard.nextLine();
+		
+		
+		if(school.equals("duke")){
+			System.out.println("Get out of here!");
+		}		
+		else if (school.equals("unc")){
+			String s2;
+			System.out.println("How many NCAA championships have been won by UNC?");
+			champEst = keyboard.nextInt();
+			if (champEst > 5)
+				System.out.println("UNC will have won that many one day.");
+			else if (champEst < 5)
+				System.out.println("You are a fake fan!");
+			else{
+				System.out.println("Congratz on being a true fan!");
+		}}
+		else{
+			String s3;
+			int differenceChamps = 0;
+			System.out.println("How many NCAA championships have been won by " + school + "?");
+			champEst = keyboard.nextInt();
+			if (champEst >= 5)
+				System.out.println(school + " is okay.");
+			else if (champEst < 5) {
+				differenceChamps = uncWins - champEst;
+			
+				System.out.println("UNC has won " + differenceChamps + " more championships than " + school + ".");
+			}
+		}
+System.out.println("Thank you for using our program. Go heels!");	
+	}
+
+}
+//END OF FILE

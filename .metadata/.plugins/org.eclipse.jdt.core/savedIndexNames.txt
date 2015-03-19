@@ -1,0 +1,5 @@
+INDEX VERSION 1.127+/Users/fcollins/Documents/workspace_luna/.metadata/.plugins/org.eclipse.jdt.core
+3682315593.index
+2568919324.index
+1055151509.index
+1492766893.index

@@ -1,0 +1,16 @@
+!SESSION 2015-03-09 09:35:20.791 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/fcollins/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/fcollins/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-03-09 09:36:33.614
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2015-03-09 10:12:51.990
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.print: {ActionHandler(org.eclipse.ui.texteditor.TextOperationAction@7e713358)} vs {ActionHandler(org.eclipse.ui.texteditor.AbstractDecoratedTextEditor$12@68773685)}
+
+!ENTRY org.eclipse.ui 4 4 2015-03-09 10:12:52.008
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.print: {ActionHandler(org.eclipse.ui.texteditor.TextOperationAction@7e713358)} vs {ActionHandler(org.eclipse.ui.texteditor.AbstractDecoratedTextEditor$12@68773685)}
